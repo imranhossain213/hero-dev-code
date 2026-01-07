@@ -16,6 +16,8 @@
     color: white;
     border: none;
     border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
   }
 
 /* main Style  */
@@ -23,7 +25,11 @@
 
 header{
   padding-top: 50px;
- background: #FFF8F3;
+ background: #;
+ background: url(images/developer.png), url(images/header_bg.png),#FFF8F3;
+ background-repeat: no-repeat;
+ background-position:top left ,bottom right;
+ background-size:auto ;
 }
 .logo h2{
   font-size: 45px;
@@ -52,4 +58,39 @@ nav .manu a{
   font-size: 20px;
   text-decoration: none;
   color: #474747;
+}
+#banner{
+  margin: 46px 38px 0 185px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#banner .banner-content{
+max-width: 585px;
+
+}
+#banner .banner-content h2{
+  font-size: 45px;
+  color: #474747;
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+#banner .banner-content h1{
+  font-size: 75px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+#banner .banner-content p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+#banner .banner-img img{
+  max-width: 584px;
+  vertical-align: middle;
+
 }
