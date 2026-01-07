@@ -19,7 +19,9 @@
     text-transform: capitalize;
     cursor: pointer;
   }
-
+.button-center{
+  text-align: center;
+}
   .section-heading{
     max-width: 827px;
     margin: 0 auto;
@@ -44,7 +46,7 @@ header{
   padding-top: 50px;
  background: url(images/developer.png), url(images/header_bg.png),#FFF8F3;
  background-repeat: no-repeat;
- background-position:top left ,bottom right;
+ background-position:23px 38px ,bottom right;
 
  
 }
@@ -207,5 +209,45 @@ margin-bottom: 20px;
 .resume-container .card-text{
   font-size: 16px;
   line-height: 28px;
+  color: #757575;
+}
+
+footer{
+  margin-top: 130px;
+  padding: 130px 0;
+  background: #FFF8F3;
+}
+footer .fotter-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 47px;
+}
+.fotter-container h2{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.fotter-container p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.fotter-containe .social{
+  max-width: 562px;
+
+}
+.fotter-container .icons a{
+  margin-right: 24px;
+}
+
+.fotter-container form input[type="text"],input[type="email"],.fotter-container textarea{
+  width: 462px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
   color: #757575;
 }
